@@ -59,29 +59,28 @@ It includes authentication, account management, transaction logging, automatic s
 
 ## 📂 Folder Structure
 
+```text
 ZenithBank_OS/
 │
-├── app.py # Main UI / entry point
-├── account.py # Account logic
-├── bank_core.py # User manager (register/login)
-├── transaction.py # Transaction model
-├── storage.py # File I/O + hashing
-├── utils.py # Helper functions
-├── README.md # Documentation
+├── app.py                     # Main UI / entry point
+├── account.py                 # Account logic
+├── bank_core.py               # User manager (register/login)
+├── transaction.py             # Transaction model
+├── storage.py                 # File I/O + hashing
+├── utils.py                   # Helper functions
+├── README.md                  # Documentation
 ├── .gitignore
 │
 ├── assets/
-│ └── output.png # Real execution screenshot
+│   └── output.png             # Real execution screenshot
 │
-├── data/ # Auto-generated user data
-│ └── users/
-│ └── <username>/
-│ ├── balance.txt
-│ └── transactions.txt
+├── data/                      # Auto-generated user data
+│   └── users/
+│       └── <username>/
+│           ├── balance.txt
+│           └── transactions.txt
 │
-└── logs/ # Daily audit logs
-
-📌 **Note:** `data/` and `logs/` are ignored using `.gitignore` for privacy & security.
+└── logs/                      # Daily audit logs
 
 ---
 
